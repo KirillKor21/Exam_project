@@ -10,5 +10,9 @@ def index():
 def main():
     return render_template("main.html")
 
+@app.route("/fall")
+def fall():
+    return render_template("fall.html")
+
 if __name__ == "__main__":
     app.run()
