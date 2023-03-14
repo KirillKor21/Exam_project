@@ -10,4 +10,5 @@ def index():
 def main():
     return render_template("main.html")
 
-app.run(host="0.0.0.0")
+if __name__ == "__main__":
+    app.run()
